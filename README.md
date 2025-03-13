@@ -8,7 +8,17 @@ In this real life case study of a financial institution, the main focuses are to
 Information and types of the dataset have been obtained, descriptions as min-max values, average etc. have been listed and missing values of the credit card dataset have been checked. Also, duplicated values of the dataset have been determined and eliminated. The ‘Class’ attribute is a boolean attribute and ‘0’ indicates no fraud and ‘1’ indicates fraud transaction. After the duplicate elimination, the total number of both non-fraudulent and fraudulent transactions have been counted. There are 283,253 non-fraudulent transactions and 473 fraudulent transactions. 
 
 **Exploratory Data Analysis (EDA):**
-In this part, fraudulent and non-fraudulent transactions have been visualized. It is revealed that only 0,17% of the dataset contains fraud records. Moreover, heatmap has been plotted in order to see the correlation between the features and their importance. To obtain the importance levels of features on fraud actions, bar-chart has been plotted. It was revealed that V17, V14, and V12 features have the most effect on fraud actions.
+
+<img width="460" alt="Screenshot 2025-03-14 at 00 28 17" src="https://github.com/user-attachments/assets/79bb0ca4-e9cb-4828-b6a4-e20acd993b71" />
+
+In this part, fraudulent and non-fraudulent transactions have been visualized. It is revealed that only 0,17% of the dataset contains fraud records. 
+
+<img width="423" alt="Screenshot 2025-03-14 at 00 28 22" src="https://github.com/user-attachments/assets/3ce383df-bd30-4200-ae9d-4989d59536cc" />
+
+Moreover, heatmap has been plotted in order to see the correlation between the features and their importance. To obtain the importance levels of features on fraud actions, bar-chart has been plotted. It was revealed that V17, V14, and V12 features have the most effect on fraud actions.
+
+<img width="535" alt="Screenshot 2025-03-14 at 00 28 31" src="https://github.com/user-attachments/assets/e4a7f258-760e-4052-b9cf-106efceb7f9a" />
+
 Lastly, statistical details of transaction amount of fraud records have been listed as count, mean, standard deviation, min-max values etc.
 
 **Data Modelling:**
